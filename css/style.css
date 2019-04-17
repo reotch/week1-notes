@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: slategrey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+header {
+    background-color: hsla(248, 53%, 58%, 0.3);
+    padding: 10px;
+    box-shadow: 2px 3px 10px black;
+    color: rgb(208, 219, 226);
+    text-shadow: 1px 2px 2px black;
+}
+
+h1 {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+h4 {
+    margin: 5px;
+    font-size: 18px;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.questions {
+    background-color: darkgrey;
+    border-radius: 3px;
+    width: auto;
+    padding: 5px 10px;
+    color: rgb(187, 25, 25);
+}
+
+.command {
+    font-family: monospace;
+}
+
+.bullet-description {
+    padding: 0px 5px 5px 0px;
+    margin: 0px;
+    font-size: small;
+}
+
+.elaborate {
+    background-color: rgb(29, 32, 32);
+    color: whitesmoke;
+    border-radius: 3px;
+    padding: 3px;
+}

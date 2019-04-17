@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1>Week 1 Notes &amp; Daily Summaries</h1>
+        </header>
+        <main>
+            <div>
+                <h2>Monday, 15 April 2019</h2>
+                    <p>Today we were working primarily in Git & Github. Though the first part of the class dealt with introductions for attendees and Joel Carter, the instructor, as well as defining what we are learning. His name is pronounced "Joe-el", by the way.</p>
+                    <p>The first thing to deserve a spot in the notebook is this piece of advice from Joel: <q>Knowing where to look for answers is more important than knowing how to code.</q> He then went on to talk about what we are going to learn.</p>
+                <h3>Languages &amp; Frameworks</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                            <p class="bullet-description">This is a superset of JavaScript; the <em>framework</em> is Angular</em></p>
+                        <li>Python</li>
+                            <p class="bullet-description">The framework is Flask</p>
+                    </ul>
+                    <div class="questions">
+                        <h4>Questions:</h4>
+                            <ul>
+                                <li>What exactly is a "framework"?</li>
+                                <li>Are there languages and skills within these broad categories that we will be learning (e.g., Bootstrap within CSS) that are useful in marketing ourselves? The Coding Temple website lists JQuery, APIs, and SQL, for example.</li>
+                            </ul>
+                    </div>
+                <h3>Projects</h3>
+                    <ul>
+                        <li>NZA Law</li>
+                            <p class="bullet-description">HTML/CSS/JavaScript project</p>
+                        <li>Shopping Cart</li>
+                            <p class="bullet-description">Python</p>
+                        <li>Hangman Game</li>
+                        <li>Weather App</li>
+                        <li>E-Commerce App</li>
+                    </ul>
+                    <p>Projects are assigned via Slack. Work is stored in Github. Assignments are submitted in Google Classroom.</p>
+                <h3>Git &amp; Github</h3>
+                    <p>Git and Github are collaboration software for <strong>version control</strong>.</p>
+                    <p>Use the git-cheatsheet used for setup. I have starred the document in Slack, but also can find it on my <a href="https://drive.google.com/drive/folders/1F7IrLolZEnM0qF-BM0HXT0s9UUR3npqO?usp=sharing">Google Drive</a> in the Week 1 folder.</p>
+                    <p><a href="https://github.com/reotch">Github Account</a> for Reotch</p>
+                <h3>Command Line</h3>
+                    <p>In the Windows environment there is the PowerShell. For Git you can use the Git Bash app to use a command line like you would see in a Unix or Linux environment.</p>
+                    <div class="elaborate">
+                        <h4>Frequently Used Commands</h4>
+                            <ul>
+                                <li class="command">pwd</li>
+                                    <p class="bullet-description">Gets information on current path</p>
+                                <li class="command">ls</li>
+                                    <p class="bullet-description">Lists the files and folders in the current directory</p>
+                                <li class="command">cd</li>
+                                    <p class="bullet-description">Change directory; used to move up or down a directory path into different directories</p>
+                                    <ul>
+                                        <li class="command">cd [folder name]</li>
+                                            <p class="bullet-description">Use <span class="command">Tab</span> key to auto-complete</p>
+                                        <li class="command">cd ..</li>
+                                            <p class="bullet-description">Move back one folder in the path; use <span class="command">"../.."</span> to move up two folders in the path</p>
+                                    </ul>
+                                <li class="command">code .</li>
+                                    <p class="bullet-description">Opens Visual Studio Code app</p>
+                            </ul>
+                        </div>
+                <h3>Visual Studio Code</h3>
+                    <p>Once the Visual Studio Code app has opened, you can use the terminal inside the application. Use the keyboard shortcut <span class="command">ctrl + ~</span> or <span class="command">cmd + ~</span> to open the terminal.</p>
+                <h3>Setting Up a Github Repository</h3>
+                    <p>Before using the command line to upload to your Github repository, it needs to know which repository to work with. Set up a Github repository with the following steps:</p>
+                        <ol>
+                            <li>Log in to Github</li>
+                            <li>Click the <span class="command">+</span> button in the upper-right corner; select <q>New Repository</q> from the dropdown menu</li>
+                            <li>Name the repository and give it a description</li>
+                            <li>Click the <q>Create Repository</q> button</li>
+                            <li>Copy the URL of the repository by clicking the clipboard icon; this will be used in step 4 of the <q>Git Terminal Commands</q> instructions below</li>
+                        </ol>
+                    <div class="elaborate">
+                        <h4>Git Terminal Commands</h4>
+                            <ol>
+                                <li class="command">git init</li>
+                                    <p class="bullet-description">This tells the computer to initiate a local repository; you must be in the working directory; the command line will create a .git file in that directory</p>
+                                <li class="command">git add .</li>
+                                    <p class="bullet-description">This adds all the files and directories in the working directory to the git repository</p>
+                                <li class="command">git commit -m "first commit"</li>
+                                    <p class="bullet-description">This creates the first git package to be uploaded</p>
+                                <li class="command">git remote add origin [Github repository URL]</li>
+                                    <p class="bullet-description">This uploads the local repository to the Github repository</p>
+                            </ol>
+                    </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
