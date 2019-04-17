@@ -35,15 +35,15 @@
                     <p>The solution makes sense.</p>
                     <div class="code-snippet">
                         <blockquote><pre># This is the solution Lucas came up with to iterate through the list
-                            def is_consecutive(a_list): # define the function "is_consecutive"
-                                a_list.sort() # sort the list; this is my addition
-                                for i in range(1, len(a_list)): # for "i" ("index item") in the range from index 1 to the length of a_list
-                                    if a_list[i] - 1 != a_list[i - 1]: 
-                                    """if the index of "i", which starts at index 1, minus the integer 1 is not equal to a_list index of i - 1 index number"""
-                                        return(False)
-                                return(True) # put outside the for loop so that if nothing returns false
-                            
-                            print(is_consecutive([24, 22, 23]))</pre></blockquote>
+    def is_consecutive(a_list): # define the function "is_consecutive"
+        a_list.sort() # sort the list; this is my addition
+        for i in range(1, len(a_list)): # for "i" ("index item") in the range from index 1 to the length of a_list
+            if a_list[i] - 1 != a_list[i - 1]: 
+            """if the index of "i", which starts at index 1, minus the integer 1 is not equal to a_list index of i - 1 index number"""
+                return(False)
+        return(True) # put outside the for loop so that if nothing returns false
+    
+    print(is_consecutive([24, 22, 23]))</pre></blockquote>
                     </div>
                     <p>We also got an introduction to Brijesh and Dion, who were unable to attend the first day. They demoed their HTML projects, and we discussed the idea that <strong>modern industry practice is to start developing a site for mobile first, then work on larger screens later</strong>. I'm not doing that for this site, so shame on me.</p>
                     <h3>HTML</h3>
@@ -52,6 +52,9 @@
                         <p>CSS is read by importance. An inline style is the most important. Then an internal CSS, then an external CSS.</p>       
                         <p>An external CSS document is standard and the best practice. In a stylesheet the order of precedence is <em>element, ID, class</em>.</p>
                         <p>The <a href="https://www.w3schools.com/Css/css_boxmodel.asp" target="_blank">Box Model</a> highlights how blocks are treated by CSS selectors.</p>
+                        <div class="image">
+                            <img src="images/20190416_box_model.png" alt="the box model">
+                        </div>
             </div>
         </main>
         <footer>

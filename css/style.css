@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: slategrey;
+    background-color: rgb(144, 166, 187);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,7 +18,8 @@ header {
 }
 
 nav {
-    height: 50px;
+    height: 40px;
+    padding: 25px;
 }
 
 /* Descendent selector - this targets the child within the first element; use a space between */
@@ -26,22 +27,30 @@ nav ul {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
+    text-align: center;
 }
 
 nav ul li {
-    float: left;
-    padding: 15px;
+    display: inline;
+    padding: 1em 4em;
+    font-weight: bold;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(208, 219, 226);
 }
 
 /* use a pseudo-selector (":") to assign a pseudo-class, in this case, hover */
 nav ul li:hover {
     background-color: black;
-    cursor: pointer;
     color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 h1 {
-    padding: 10px 15px;
     text-align: center;
 }
 
@@ -75,6 +84,21 @@ blockquote {
   blockquote p {
     display: inline;
   }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* for IE 8 or earlier */
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px black;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* for IE 8 or earlier */
+}
 
 footer {
     text-align: center;
