@@ -11,18 +11,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body id="Monday">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
             <h1>Week 1 Notes &amp; Daily Summaries</h1>
         </header>
+        <nav>
+            <ul>
+                <li href="index.html">Monday</li>
+                <li href="tuesday.html">Tuesday</li>
+                <li href="wednesday.html">Wednesday</li>
+                <li href="thursday.html">Thursday</li>
+                <li href="friday.html">Friday</li>
+            </ul>
+        </nav>
         <main>
             <div>
                 <h2>Monday, 15 April 2019</h2>
-                    <p>Today we were working primarily in Git & Github. Though the first part of the class dealt with introductions for attendees and Joel Carter, the instructor, as well as defining what we are learning. His name is pronounced "Joe-el", by the way.</p>
-                    <p>The first thing to deserve a spot in the notebook is this piece of advice from Joel: <q>Knowing where to look for answers is more important than knowing how to code.</q> He then went on to talk about what we are going to learn.</p>
+                    <p>Today we were working primarily in Git & Github. Though the first part of the class dealt with introductions for attendees and Joel Carter, the instructor, as well as defining what we are learning.</p>
+                    <p>The first thing to deserve a spot in my (paper) notebook is this piece of advice from Joel:</p>
+                        <blockquote>Knowing where to look for answers is more important than knowing how to code.</blockquote> 
+                    <p>He then went on to talk about what we are going to learn.</p>
                 <h3>Languages &amp; Frameworks</h3>
                     <ul>
                         <li>HTML</li>
@@ -98,12 +109,27 @@
                                     <p class="bullet-description">This creates the first git package to be uploaded</p>
                                 <li class="command">git remote add origin [Github repository URL]</li>
                                     <p class="bullet-description">This uploads the local repository to the Github repository</p>
+                                <li class="command">git push -u origin master</li>
+                                    <p class="questions">What exactly does this do?</p>
                             </ol>
                     </div>
+                <div id="workflow">
+                    <h3>Workflow &ndash; Visual Studio Code and Git</h3>
+                    <p>Use the following steps when working in Visual Studio Code and backing up to Github</p>
+                    <ol>
+                        <li>Use <span class="command">ctrl + s</span> on Windows or <span class="command">CMD + S</span> on OSX to save your work locally</li>
+                        <li>Enter the following in your command line</li>
+                        <ol>
+                            <li class="command">git add .</li>
+                            <li class="command">git commit -m "changes made"</li>
+                            <li class="command">git push -u origin master</li>
+                        </ol>
+                    </ol>
+                </div>
             </div>
         </main>
         <footer>
-
+            <p>Coding Temple Week 1</p>
         </footer>
         <script src="" async defer></script>
     </body>

@@ -17,6 +17,27 @@ header {
     text-shadow: 1px 2px 2px black;
 }
 
+nav {
+    height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5em;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
 h1 {
     padding: 10px 15px;
     text-align: center;
@@ -31,6 +52,26 @@ li {
     padding: 0px;
     margin: 0px;
 }
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    border-radius: 3px; 
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
 
 .questions {
     background-color: darkgrey;
